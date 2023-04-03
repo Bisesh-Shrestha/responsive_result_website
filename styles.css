@@ -149,12 +149,23 @@
   cursor: pointer;
 }
 
-/* For mobile devices */
-
+/* For mobile devices  */
 @media screen and (max-width: 600px) {
   .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .first {
+    height: 40%;
+    width: 100%;
+    border-radius: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  .second {
+    margin-left: 2rem;
   }
 }
