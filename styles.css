@@ -90,7 +90,7 @@
   flex-direction: row;
   border-radius: 0.5rem;
   max-width: 90%;
-  max-height: 3rem;
+  max-height: 2.5rem;
   margin-top: 1rem;
 }
 
@@ -168,5 +168,8 @@
   }
   .second {
     margin-left: 2rem;
+  }
+  .desc {
+    font-size: 1rem;
   }
 }
